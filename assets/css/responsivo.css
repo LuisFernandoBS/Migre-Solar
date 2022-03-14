@@ -1,0 +1,30 @@
+@media (min-width: 992px) {
+    header .nav-link{
+        margin-left: 0.50em;
+        margin-right: 0.50em;
+    }
+
+    .carrosel__div___imagem{
+        height: 70vh;
+    }
+    
+    .carrosel__imagem {
+        height: 100vh;
+    }
+
+    .icone_whats{
+        position: fixed; 
+        bottom: 30px; 
+        left: 95%; 
+        cursor: pointer; 
+        z-index: 99999999;
+    }
+}
+
+@media (max-width: 991px) {
+    header .navbar-collapse{
+        width: 100%;
+    }
+
+   
+}
